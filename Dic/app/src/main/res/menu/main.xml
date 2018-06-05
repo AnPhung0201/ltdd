@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title=""
+        android:icon="@drawable/ic_eng_vi"
+        app:showAsAction="always" >
+        <menu>
+            <item
+                android:id="@+id/action_eng_vi"
+                android:title="English - Viet"
+                android:icon="@drawable/ic_eng_vi"
+                android:orderInCategory="100"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_vi_eng"
+                android:title="Viet - English"
+                android:icon="@drawable/ic_vi_eng"
+                android:orderInCategory="100"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>
